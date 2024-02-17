@@ -1,0 +1,59 @@
+.promotional-offer {
+    border-radius: 10px;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, #333333 0%, #EEEFEE 100%);
+    position: relative;
+}
+
+.promotional-offer .text-overflow {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: white;
+}
+
+.promotional-offer h2 {
+    font-size: 3cqmax;
+}
+
+.tile-container {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 1rem;
+    margin-top: 2%;
+}
+
+.tile-container h3 {
+    font-weight: bold;
+}
+
+.tile {
+    transition: transform .2s;
+    background: #F4E5D6;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.tile:hover, .header-image:hover {
+    transform: scale(1.05);
+}
+
+.tile-img-container {
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .tile-container {
+        flex-wrap: wrap;
+    }
+
+    .promotional-offer .text-overflow {
+        font-size: 1rem;
+    }
+
+    .promotional-offer .text-overflow p {
+        display: none;
+    }
+}

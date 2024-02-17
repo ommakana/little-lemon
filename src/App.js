@@ -1,7 +1,19 @@
 import "./App.css";
+import Footer from "./Footer/Footer";
+import Header from "./Header/Header";
+import Main from "./Main/Main";
+import Nav from "./Nav/Nav";
 
 function App() {
-  return <div className="App">My Little lemon App</div>;
+  return <>
+  <Header />
+
+  <Nav />
+
+  <Main />
+
+  <Footer />
+  </>;
 }
 
 export default App;
