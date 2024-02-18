@@ -13,7 +13,7 @@ export default function Nav() {
     },
     {
         name: 'About',
-        url: '#'
+        url: '/about'
     },
     {
         name: 'Book',
