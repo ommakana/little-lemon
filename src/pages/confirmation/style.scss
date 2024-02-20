@@ -1,0 +1,57 @@
+.container {
+    width: 66%;
+    height: auto;
+    min-height: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4.3rem;
+    margin-top: 12.8rem;
+  
+    > button {
+      max-width: 400px;
+    };
+  
+    @media (max-width: 1120px) {
+      width: 90%;
+    };
+  
+    @media (max-width: 768px) {
+      margin-top: 9rem;
+    };
+}
+
+.top {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  
+    @media (max-width: 840px) {
+      flex-direction: column;
+  
+      h1 {
+        text-align: center;
+      };
+    };
+}
+
+.confirmation {
+  display: grid;
+  width: 100%;
+  max-width: 400px;
+  gap: 20px;
+  font-size: medium;
+  color: white;
+  background-color: black;
+  padding: 2rem;
+  border-radius: 5px;
+
+  span {
+    text-transform: capitalize;
+  };
+}

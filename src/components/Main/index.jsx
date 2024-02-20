@@ -1,6 +1,6 @@
 import React from 'react';
-import PromotionalOfferImg from '../assets/Asset 14@4x.png';
-import MenuImg from '../assets/Asset 16@4x.png';
+import PromotionalOfferImg from '../../assets/Asset 14@4x.png';
+import MenuImg from '../../assets/Asset 16@4x.png';
 
 import './style.css';
 

@@ -5,7 +5,7 @@ import './style.css';
 export default function Nav() {
     const navLinks = [{
         name: 'Home',
-        url: '#'
+        url: '/'
     },
     {
         name: 'Menu',
@@ -17,7 +17,7 @@ export default function Nav() {
     },
     {
         name: 'Book',
-        url: '#'
+        url: '/booking'
     }];
 
     return (
