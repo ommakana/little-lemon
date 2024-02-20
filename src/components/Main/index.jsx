@@ -27,7 +27,8 @@ const tiles = [
   recusandae
   sed
   animi perferendis aperiam ab?`,
-    footerText: 'Book your table now'
+    footerText: 'Book your table now',
+    footerUrl: '/booking'
   },
   {
     title: 'Opening hours',
@@ -70,7 +71,7 @@ export default function Main() {
           <p>
             {tile.content}
           </p>
-          {tile.footerText && <a href={tile.title}>{tile.footerText}</a>}
+          {tile.footerText && <a href={tile.footerUrl}>{tile.footerText}</a>}
         </div>
       })}
       </div>
